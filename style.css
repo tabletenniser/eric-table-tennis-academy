@@ -171,6 +171,7 @@ html {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    z-index: 1001;
 }
 
 .bar {
@@ -688,6 +689,7 @@ section {
         padding: 2rem 0;
         height: calc(100vh - 70px);
         border-top: 1px solid #1f2937;
+        z-index: 1000;
     }
 
     .nav-menu.active {
@@ -761,6 +763,35 @@ section {
 
     .pricing-options {
         grid-template-columns: 1fr;
+    }
+    
+    /* Mobile language toggle adjustments */
+    .language-toggle {
+        margin-top: 1rem;
+        order: 10;
+    }
+    
+    .lang-dropdown {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: 0.5rem;
+        box-shadow: none;
+        border: none;
+        background: transparent;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+    }
+    
+    .lang-dropdown.active {
+        opacity: 1;
+    }
+    
+    .lang-option {
+        background: rgba(59, 130, 246, 0.1);
+        margin: 0.25rem 0;
+        border-radius: 6px;
     }
 }
 
