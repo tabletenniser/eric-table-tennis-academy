@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Table Tennis Academy - Seattle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://erictabletennis.com/wp-content/uploads/2025/08/logo_WHITE.png" alt="Eric Table Tennis Academy" class="logo">
+                <span class="logo-text">Eric Table Tennis Academy</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-en="Home" data-zh="主页">Home</a>
+                <a href="#about" class="nav-link" data-en="About" data-zh="关于我们">About</a>
+                <a href="#membership" class="nav-link" data-en="Membership" data-zh="会员制度">Membership</a>
+                <a href="#coaching" class="nav-link" data-en="Coaching" data-zh="教练课程">Coaching</a>
+                <a href="#contact" class="nav-link" data-en="Contact" data-zh="联系我们">Contact</a>
+                
+                <!-- Language Toggle -->
+                <div class="language-toggle">
+                    <button id="lang-toggle" class="lang-btn">
+                        <span class="lang-current">EN</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="lang-dropdown">
+                        <button class="lang-option" data-lang="en">English</button>
+                        <button class="lang-option" data-lang="zh">中文</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" data-en="Welcome to Eric Table Tennis Academy" data-zh="欢迎来到埃里克乒乓球学院">Welcome to Eric Table Tennis Academy</h1>
+            <p class="hero-subtitle" data-en="Professional table tennis training in the heart of Seattle" data-zh="西雅图核心地区的专业乒乓球训练">Professional table tennis training in the heart of Seattle</p>
+            <div class="hero-buttons">
+                <a href="#membership" class="btn btn-primary" data-en="Join Now" data-zh="立即加入">Join Now</a>
+                <a href="#about" class="btn btn-secondary" data-en="Learn More" data-zh="了解更多">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Our Academy" data-zh="关于我们的学院">About Our Academy</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="Eric Table Tennis Academy features state-of-the-art facilities with Butterfly table tennis equipment sponsorship, 17 Butterfly competition-grade tables, ITTF-approved sports flooring, clean and tidy facilities, high ceilings, and ample space suitable for table tennis enthusiasts and professional athletes at all levels." data-zh="埃里克乒乓球学院拥有最先进的设施，获得Butterfly乒乓球器材商赞助合作，17张Butterfly比赛级球台，ITTF通过的运动塑胶地，球馆干净整洁，高棚顶，有足够的空间适用于各个阶段的乒乓球爱好者和专业运动员。">Eric Table Tennis Academy features state-of-the-art facilities with Butterfly table tennis equipment sponsorship, 17 Butterfly competition-grade tables, ITTF-approved sports flooring, clean and tidy facilities, high ceilings, and ample space suitable for table tennis enthusiasts and professional athletes at all levels.</p>
+                    
+                    <p data-en="We create an excellent practice atmosphere and sports environment for children, allowing them to experience the charm of table tennis outside of study time, while cultivating more excellent table tennis players. For adult table tennis enthusiasts, we provide excellent facilities, clean and tidy sports venues, and a healthy sports atmosphere." data-zh="给小朋友们打造一个良好的练习氛围和运动环境，在学习以外的时间感受乒乓球的魅力，同时培养出更多优秀的乒乓球运动员。给成人乒乓球爱好者提供一个优秀的设施，干净整洁的运动场所和健康的运动氛围。">We create an excellent practice atmosphere and sports environment for children, allowing them to experience the charm of table tennis outside of study time, while cultivating more excellent table tennis players. For adult table tennis enthusiasts, we provide excellent facilities, clean and tidy sports venues, and a healthy sports atmosphere.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="fas fa-table-tennis-paddle-ball"></i>
+                        <h3 data-en="17 Competition Tables" data-zh="17张比赛球台">17 Competition Tables</h3>
+                        <p data-en="Butterfly competition-grade tables" data-zh="Butterfly比赛级球台">Butterfly competition-grade tables</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-certificate"></i>
+                        <h3 data-en="ITTF Approved" data-zh="ITTF认证">ITTF Approved</h3>
+                        <p data-en="Professional sports flooring" data-zh="专业运动地板">Professional sports flooring</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-users"></i>
+                        <h3 data-en="All Skill Levels" data-zh="所有技能水平">All Skill Levels</h3>
+                        <p data-en="From beginners to professionals" data-zh="从初学者到专业人士">From beginners to professionals</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="membership">
+        <div class="container">
+            <h2 class="section-title" data-en="Membership Plans" data-zh="会员计划">Membership Plans</h2>
+            <div class="membership-grid">
+                <!-- Annual Membership -->
+                <div class="membership-card">
+                    <h3 data-en="Annual Membership" data-zh="年度会员">Annual Membership</h3>
+                    <div class="price">
+                        <span class="price-amount" data-en="$800" data-zh="800加元">$800</span>
+                        <span class="price-period" data-en="+ tax / year" data-zh="加税/年">+ tax / year</span>
+                    </div>
+                    <div class="price-variants">
+                        <p data-en="Family: $1300 + tax" data-zh="家庭：1300加元+税">Family: $1300 + tax</p>
+                        <p data-en="Kids (under 18): $600 + tax" data-zh="小孩（18以下）：600加元+税">Kids (under 18): $600 + tax</p>
+                    </div>
+                    <ul class="features">
+                        <li data-en="Unlimited Open Play" data-zh="无限制开放时间">Unlimited Open Play</li>
+                        <li data-en="Free Parking" data-zh="免费停车">Free Parking</li>
+                        <li data-en="Free WiFi" data-zh="免费WiFi">Free WiFi</li>
+                        <li data-en="Eric Table Tennis Academy T-Shirt" data-zh="埃里克乒乓球学院T恤">Eric Table Tennis Academy T-Shirt</li>
+                    </ul>
+                </div>
+
+                <!-- 30 Days Membership -->
+                <div class="membership-card">
+                    <h3 data-en="30 Days Membership" data-zh="30天会员">30 Days Membership</h3>
+                    <div class="price">
+                        <span class="price-amount" data-en="$90" data-zh="90加元">$90</span>
+                        <span class="price-period" data-en="+ tax / 30 days" data-zh="加税/30天">+ tax / 30 days</span>
+                    </div>
+                    <div class="price-variants">
+                        <p data-en="Kids (under 18): $80 + tax" data-zh="小孩（18以下）：80加元+税">Kids (under 18): $80 + tax</p>
+                    </div>
+                    <ul class="features">
+                        <li data-en="Unlimited Open Play" data-zh="无限制开放时间">Unlimited Open Play</li>
+                        <li data-en="Free Parking" data-zh="免费停车">Free Parking</li>
+                        <li data-en="Free WiFi" data-zh="免费WiFi">Free WiFi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coaching Section -->
+    <section id="coaching" class="coaching">
+        <div class="container">
+            <h2 class="section-title" data-en="Coaching Programs" data-zh="教练课程">Coaching Programs</h2>
+            
+            <!-- Private Lessons -->
+            <div class="coaching-category">
+                <h3 data-en="Private Lessons" data-zh="私人课程">Private Lessons</h3>
+                <div class="coaching-grid">
+                    <div class="coaching-card">
+                        <h4 data-en="Eric Coach" data-zh="Eric教练">Eric Coach</h4>
+                        <div class="coach-pricing">
+                            <p data-en="$105/hour (Non-members)" data-zh="105加元/小时（非会员）">$105/hour (Non-members)</p>
+                            <p data-en="$95/hour (Members)" data-zh="95加元/小时（会员）">$95/hour (Members)</p>
+                            <p class="discount" data-en="Save $50 when you book 10 sessions" data-zh="一次交十次减50">Save $50 when you book 10 sessions</p>
+                        </div>
+                    </div>
+                    <div class="coaching-card">
+                        <h4 data-en="Anna Coach" data-zh="Anna教练">Anna Coach</h4>
+                        <div class="coach-pricing">
+                            <p data-en="$105/hour (Non-members)" data-zh="105加元/小时（非会员）">$105/hour (Non-members)</p>
+                            <p data-en="$95/hour (Members)" data-zh="95加元/小时（会员）">$95/hour (Members)</p>
+                            <p class="discount" data-en="Save $50 when you book 10 sessions" data-zh="一次交十次减50">Save $50 when you book 10 sessions</p>
+                        </div>
+                    </div>
+                    <div class="coaching-card">
+                        <h4 data-en="Other Coaches" data-zh="其他教练">Other Coaches</h4>
+                        <div class="coach-pricing">
+                            <p data-en="$85/hour (Non-members)" data-zh="85加元/小时（非会员）">$85/hour (Non-members)</p>
+                            <p data-en="$75/hour (Members)" data-zh="75加元/小时（会员）">$75/hour (Members)</p>
+                            <p class="discount" data-en="Save $50 when you book 10 sessions" data-zh="一次交十次减50">Save $50 when you book 10 sessions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Group Classes -->
+            <div class="coaching-category">
+                <h3 data-en="Group Classes" data-zh="集体课程">Group Classes</h3>
+                
+                <!-- Beginner Kids -->
+                <div class="coaching-subcategory">
+                    <h4 data-en="Beginner Kids Classes" data-zh="初学者儿童课程">Beginner Kids Classes</h4>
+                    <div class="pricing-options">
+                        <div class="pricing-option">
+                            <span data-en="1x per week" data-zh="一周一次">1x per week</span>
+                            <span data-en="$120/month" data-zh="120加元/月">$120/month</span>
+                        </div>
+                        <div class="pricing-option">
+                            <span data-en="2x per week" data-zh="一周两次">2x per week</span>
+                            <span data-en="$220/month" data-zh="220加元/月">$220/month</span>
+                        </div>
+                        <div class="pricing-option">
+                            <span data-en="3x per week" data-zh="一周三次">3x per week</span>
+                            <span data-en="$320/month" data-zh="320加元/月">$320/month</span>
+                        </div>
+                    </div>
+                    <div class="class-details">
+                        <p data-en="$30/hour per session" data-zh="30加元/小时每次">$30/hour per session</p>
+                        <p data-en="4-5 students per class" data-zh="每次4-5人">4-5 students per class</p>
+                        <p data-en="Focus: Basic strokes, forehand fundamentals, backhand fundamentals, basic footwork, basic underspin and chop practice, physical training and coordination." data-zh="上课主要内容：动作挥拍，正手基本功，反手基本功，基础步伐，基础下旋球搓球练习，身体训练和协调性练习。">Focus: Basic strokes, forehand fundamentals, backhand fundamentals, basic footwork, basic underspin and chop practice, physical training and coordination.</p>
+                        <p data-en="Goal: Build interest, establish solid fundamentals, and prepare for advanced training and competition." data-zh="主要目的：提高兴趣，打好基本功基础，为以后提高水平和比赛做准备。">Goal: Build interest, establish solid fundamentals, and prepare for advanced training and competition.</p>
+                        <p data-en="Recommended for ages 4-10. We suggest combining group and private lessons based on individual needs." data-zh="建议年龄4-10岁，建议集体课和私人课同时进行，根据个人的需求制定训练的次数和时间。">Recommended for ages 4-10. We suggest combining group and private lessons based on individual needs.</p>
+                    </div>
+                </div>
+
+                <!-- Advanced Classes -->
+                <div class="coaching-subcategory">
+                    <h4 data-en="Advanced Classes (Adults & Kids)" data-zh="高水平集体课（成人和小孩）">Advanced Classes (Adults & Kids)</h4>
+                    <div class="pricing-options">
+                        <div class="pricing-option">
+                            <span data-en="2 hours per session" data-zh="2小时每次">2 hours per session</span>
+                            <span data-en="$60/session" data-zh="60加元/次">$60/session</span>
+                        </div>
+                    </div>
+                    <div class="class-details">
+                        <p data-en="Goal: Reinforce private lesson techniques, adapt skills against different opponents, tactical training for competition, and simulate formal match conditions." data-zh="主要目的：主要巩固私人课所练的东西，面对不同的对手如何运用自己的技术，比赛所需要的战术训练，模拟正式比赛的比赛训练。">Goal: Reinforce private lesson techniques, adapt skills against different opponents, tactical training for competition, and simulate formal match conditions.</p>
+                        <p data-en="Recommended: Combine private and group lessons. We suggest 4 private lessons and 2 group lessons per week, with additional practice matches with players of similar skill level." data-zh="高水平训练建议：根据个人需求制定训练时间和计划，私人课和集体课同步进行，建议每周四次私人课和两次集体课，业余时间多和自己水平相差不多的学员进行互相的计划训练和练习比赛。">Recommended: Combine private and group lessons. We suggest 4 private lessons and 2 group lessons per week, with additional practice matches with players of similar skill level.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Contact Us" data-zh="联系我们">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3 data-en="Email" data-zh="邮箱">Email</h3>
+                            <p>erictabletennisacademy@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3 data-en="Address" data-zh="地址">Address</h3>
+                            <p>15339 NE 92nd St, Redmond, WA 98052</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3 data-en="Hours" data-zh="营业时间">Hours</h3>
+                            <p data-en="Contact us for current hours" data-zh="请联系我们了解营业时间">Contact us for current hours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.8396853333243!2d-122.13167!3d47.7056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906d7b2f1f4ad5%3A0x7b5c6f8d9e0f3a2b!2s15339%20NE%2092nd%20St%2C%20Redmond%2C%20WA%2098052!5e0!3m2!1sen!2sus!4v1693920000000!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://erictabletennis.com/wp-content/uploads/2025/08/logo_WHITE.png" alt="Eric Table Tennis Academy" class="logo">
+                    <span data-en="Eric Table Tennis Academy" data-zh="埃里克乒乓球学院">Eric Table Tennis Academy</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" data-en="Home" data-zh="主页">Home</a>
+                    <a href="#about" data-en="About" data-zh="关于我们">About</a>
+                    <a href="#membership" data-en="Membership" data-zh="会员制度">Membership</a>
+                    <a href="#coaching" data-en="Coaching" data-zh="教练课程">Coaching</a>
+                    <a href="#contact" data-en="Contact" data-zh="联系我们">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="&copy; 2024 Eric Table Tennis Academy. All rights reserved." data-zh="&copy; 2024 埃里克乒乓球学院。保留所有权利。">&copy; 2024 Eric Table Tennis Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
